@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 //import { Link } from 'react-router-dom';
+import eplogo from './eplogo.png'
+import logo from './logo.jpg'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 function Navbar() {
@@ -7,6 +9,7 @@ function Navbar() {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
   const [textColor, setTextColor] = useState('white');
+  const [lg, setLg] = useState(logo);
 
   const handleNav = () => {
     setNav(!nav);
@@ -27,9 +30,9 @@ function Navbar() {
 
   return (
     <div style={{ backgroundColor: `${color}` }} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-      <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
+      <div className='max-w-[1240px] m-auto flex justify-between p-4 items-center text-white'>
         <a href='/' exact>
-          <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>Om Sai</h1>
+          <img src={eplogo} alt="Logo" className="logo-image"/>
         </a>
         <ul style={{ color: `${textColor}` }} className='text-xl hidden sm:flex'>
           <li className='link link-underline link-underline-black p-4'>

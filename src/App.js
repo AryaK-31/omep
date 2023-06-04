@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './components/Banner';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Footer from './components/Footer';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <Navbar />
       <Banner heading='Om Sai Enterprises' message="We live and enjoy to contribute in your SUCCESS!." />
       <About />
+      <Footer />
+      
     </>
   );
 }

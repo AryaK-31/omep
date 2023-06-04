@@ -9,6 +9,7 @@ html{
 
 .custom-img{
   background-image: url('https://images.unsplash.com/photo-1682268294152-147fab24bcdc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+  background-attachment: fixed;
 }
 
 body {
@@ -76,4 +77,36 @@ code {
 .link-underline:hover {
   background-size: 100% 1px;
   background-position: 0 80%
+}
+
+.logo-image {
+  width: 220px;
+  height: 90px;
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-image {
+    width: 140px;
+    height: 60px;
+  }
+}
+
+.bg-img{
+  background-image: url('https://c1.wallpaperflare.com/preview/685/925/158/hydraulic-hydraulic-drive-working-machine-construction-machine.jpg');
+
+  height: 40rem;
+}
+
+@media (max-width: 480px) {
+  .bg-img {
+    width: 400px;
+    height: 300px;
+  }
 }
