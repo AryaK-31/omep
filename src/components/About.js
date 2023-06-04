@@ -7,9 +7,9 @@ function About() {
                 {/* Smaller image content */}
             </div>
             <div className="bg-gray-200">
-                <h1 className="text-center lg:pl-[25rem] lg:pr-16 font-semibold lg:text-6xl text-5xl lg:p-12 underline underline-offset-[20px] decoration-yellow-500 text-blue-900 lg:tracking-wide p-4">ABOUT</h1>
+                <h1 className="text-center lg:pl-[25rem] lg:pr-16 font-semibold lg:text-6xl text-5xl lg:p-12 underline underline-offset-[20px] decoration-yellow-500 text-blue-900 lg:tracking-wide p-4 font-taglineP">ABOUT</h1>
 
-                <p className="mt-4 lg:pl-[25rem] lg:pr-16 lg:text-lg p-4 lg:leading-8 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi maiores ratione neque magnam assumenda ea placeat incidunt odio iure ducimus commodi officia suscipit, nisi autem aliquam! Voluptas nisi praesentium corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi maiores ratione neque magnam assumenda ea placeat incidunt odio iure ducimus commodi officia suscipit, nisi autem aliquam! Voluptas nisi praesentium corrupti!
+                <p className="mt-4 lg:pl-[25rem] lg:pr-16 lg:text-xl font-semibold p-4 lg:leading-8 text-left font-para ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi maiores ratione neque magnam assumenda ea placeat incidunt odio iure ducimus commodi officia suscipit, nisi autem aliquam! Voluptas nisi praesentium corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi maiores ratione neque magnam assumenda ea placeat incidunt odio iure ducimus commodi officia suscipit, nisi autem aliquam! Voluptas nisi praesentium corrupti!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi maiores ratione neque magnam assumenda ea placeat incidunt odio iure ducimus commodi officia suscipit, nisi autem aliquam! Voluptas nisi praesentium corrupti!
                 </p>
             </div>

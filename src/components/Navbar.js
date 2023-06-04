@@ -34,7 +34,7 @@ function Navbar() {
         <a href='/' exact>
           <img src={eplogo} alt="Logo" className="logo-image"/>
         </a>
-        <ul style={{ color: `${textColor}` }} className='text-xl hidden sm:flex'>
+        <ul style={{ color: `${textColor}` }} className='text-xl font-nav tracking-wider hidden sm:flex'>
           <li className='link link-underline link-underline-black p-4'>
             <a href='/' exact activeClassName='active'>
               Home
