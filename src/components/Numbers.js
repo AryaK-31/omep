@@ -62,36 +62,35 @@ function Numbers() {
       requestAnimationFrame(step);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll,{ passive: true });
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('scroll', handleScroll,{ passive: true });
     };
   }, []);
 
   return (
-    <div id="numbers" className="bg-[#0a0342] p-10 flex flex-col lg:flex-row justify-center gap-[2.5rem] lg:p-6 lg:gap-[6rem] items-center">
-
-      <div className="flex lg:flex-row lg:gap-[4rem] ">
+    <div id="numbers" className="bg-[#0a0342] p-10 flex flex-col lg:flex-row md:flex-row justify-center md:gap-[0.5rem] gap-[2.5rem] lg:p-6 md:p-5 lg:gap-[6rem] items-center">
+      <div className="flex lg:flex-row md:gap-[1.5rem]  lg:gap-[4rem] ">
         <div className="text-yellow-600">
           <h1 className="ml-8 tracking-widest text-center text-[3.5rem] lg:text-6xl font-semibold">{count1}+</h1>
           <h1 className="mt-6 text-center font-nav text-[2rem] lg:text-4xl">Made <br />Products</h1>
         </div>
-        <div className="vertical-line hidden lg:block mt-5"></div>
+        <div className="vertical-line hidden md:block lg:block mt-5"></div>
         <div className="text-yellow-600">
           <h1 className="ml-8 tracking-widest text-center font-semibold text-[3.5rem] lg:text-6xl">{count2}+</h1>
           <h1 className="mt-6 text-center font-nav text-[2rem] lg:text-4xl">Happy <br />Customers</h1>
         </div>
       </div>
 
-      <div className="vertical-line block lg:hidden"></div>
+      <div className="vertical-line block md:hidden lg:hidden"></div>
 
       <div className="flex lg:flex-row lg:gap-[4rem]">
-        <div className="vertical-line hidden lg:block mt-5"></div>
+        <div className="vertical-line hidden md:block lg:block mt-5"></div>
         <div className="text-yellow-600">
           <h1 className="ml-8 tracking-widest text-center font-semibold text-[3.5rem] lg:text-6xl">{count3}+</h1>
           <h1 className="mt-6 text-center font-nav text-[2rem] lg:text-4xl">Orders <br />Received</h1>
         </div>
-        <div className="vertical-line hidden lg:block mt-5"></div>
+        <div className="vertical-line hidden md:block lg:block mt-5"></div>
         <div className="text-yellow-600">
           <h1 className="ml-8 tracking-widest text-center font-semibold text-[3.5rem] lg:text-6xl">{count4}+</h1>
           <h1 className="mt-6 text-center font-nav text-[2rem] lg:text-4xl">Trusted <br />Clients</h1>

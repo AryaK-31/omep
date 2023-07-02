@@ -4,6 +4,10 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Footer from './components/Footer';
 import Numbers from './components/Numbers';
+import Services from './components/Services';
+import Contact from './components/Contact';
+import Products from './components/Products';
+import Extra from './components/Extra';
 
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -21,6 +25,10 @@ function App() {
       <Banner heading='Om Sai Enterprises' message="We live and enjoy to contribute in your SUCCESS!." />
       <About />
       <Numbers />
+      <Services />
+      <Products />
+      <Extra />
+      <Contact />
       <Footer />
       
     </>

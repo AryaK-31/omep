@@ -9,7 +9,7 @@ module.exports = {
       tagline : ["Alegreya","serif"],
       taglineP : ["Playfair Display","serif"],
       nav : ['Bebas Neue', 'sans-serif'],
-      para : ['Roboto Condensed', 'sans-serif']
+      para : ['Roboto Condensed', 'sans-serif'],
     }
   },
   plugins: [],

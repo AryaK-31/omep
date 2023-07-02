@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+.specialize {
+  font-family: 'Montserrat', sans-serif;
+  color: #1E2D3B;
+}
+
+.specialize h2 {
+  margin-left: 10%;
+  font-size: 23px;
+  width: fit-content;
+  text-transform: uppercase;
+  color: #1E2D3B;
+  font-weight: 600;
+  margin-top: 4%;
+}
+
+.specialize .line {
+  height: 10px;
+  width: 7%;
+  background-color: #EDCD1F;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9px;
+}
+
+.specialize .line1 {
+  height: 5px;
+  width: 7%;
+  background-color: #EDCD1F;
+  margin-left: 10%;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+.specialize .info {
+  height: 60%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.specialize ol:first-child {
+  margin-top: 19px;
+}
+
+.specialize li {
+  margin-bottom: 15px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.specialize .left {
+  width: 42%;
+}
+
+.specialize .right {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.specialize .img1 {
+  width: 300px;
+  height: 300px;
+  background-image: url('https://cpimg.tistatic.com/05492057/b/4/Hydraulic-Hose-Assemblies.jpg');
+  background-size: cover;
+  background-position: 96% 3%;
+  border: 1px solid #F7F7F7;
+}
+
+.specialize .img2 {
+  width: 300px;
+  height: 300px;
+  background-image: url('https://tiimg.tistatic.com/fp/1/005/462/high-pressure-hydraulic-hose-assemblies-526.jpg');
+  background-size: cover;
+  background-position: top;
+  border: 2px solid #F7F7F7;
+}
+
+.specialize .info1 {
+  height: 18%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.specialize .img11 {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('https://5.imimg.com/data5/QJ/YN/MY-8804309/hydraulic-cylinder-500x500.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 7px 0px;
+}
+
+.specialize .right1 {
+  width: 40%;
+  height: 100%;
+}
+
+.specialize .img111 {
+  width: 300px;
+  height: 300px;
+  background-image: url('https://3.imimg.com/data3/AC/LW/MY-7375549/hydax-items-full-range-500x500.jpg');
+  
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #F7F7F7;
+}
+
+.specialize .img222 {
+  width: 300px;
+  height: 300px;
+  background-image: url('https://hydropneumatics.in//wp-content/uploads/2016/07/pp14.png');
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #F7F7F7;
+}
+
+@media screen and (max-width: 1284px) {
+  .specialize .heading {
+    font-size: 45px;
+  }
+
+  .specialize .line {
+    width: 13%;
+  }
+
+  .specialize .info {
+    height: 70%;
+  }
+
+  .specialize h2 {
+    font-size: 27px;
+  }
+
+  .specialize .line1 {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .specialize .heading {
+    font-size: 45px;
+  }
+
+  .specialize .line {
+    width: 13%;
+  }
+
+  .specialize .info {
+    height: 100%;
+  }
+
+  .specialize h2 {
+    font-size: 27px;
+  }
+
+  .specialize .line1 {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .specialize .heading {
+    font-size: 45px;
+  }
+
+  .specialize .line {
+    width: 13%;
+  }
+
+  .specialize h2 {
+    font-size: 27px;
+  }
+
+  .specialize .line1 {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .specialize .heading {
+    font-size: 30px;
+  }
+
+  .specialize .line {
+    width: 30%;
+  }
+
+  .specialize h2 {
+    font-size: 17px;
+  }
+
+  .specialize .line1 {
+    width: 25%;
+  }
+
+  .specialize .info {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .specialize .left {
+    width: 100%;
+  }
+  .img11{
+    display: none;
+  }
+  .specialize .right,
+  .specialize .right1 {
+    display: none;
+  }
+}
