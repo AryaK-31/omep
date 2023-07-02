@@ -6,9 +6,9 @@ const Services = () => {
             <div className="heading lg:text-6xl text-5xl text-center text-uppercase font-taglineP tracking-wide font-bold text-[#0a0342] underline underline-offset-[20px] decoration-yellow-500">
                 SERVICES
             </div>
-            <div className="p-6 works lg:h-3/4 lg:w-3/4 mx-auto mt-12 flex flex-col lg:flex-row justify-between gap-8 items-center">
-                <div className="lg:p-4 work1 h-[600px] w-full lg:w-1/3 bg-[#0a0342] lg:mr-8">
-                    <div className="img h-2/5 sm:h-1/2 w-full bg-blue-100 bg-cover bg-right" style={{ backgroundImage: "url(https://fractory.com/wp-content/uploads/2019/08/Tube-Bending-Machine.jpg)" }}></div>
+            <div className="p-6 lg:p-6 works lg:h-3/4 lg:w-3/4 mx-auto mt-12 flex flex-col lg:flex-row justify-between gap-8 items-center">
+                <div className="lg:p-4  work1 h-[600px] w-full lg:w-1/3 bg-[#0a0342] lg:mr-8">
+                    <div className="img h-2/5 sm:h-3/2 w-full bg-blue-100 bg-cover bg-right" style={{ backgroundImage: "url(https://fractory.com/wp-content/uploads/2019/08/Tube-Bending-Machine.jpg)" }}></div>
                     <h3 className="text-2xl text-yellow-600 mt-8 lg:mx-8 text-center">Pipe (Tube) Bending works</h3>
                     <p className="text-yellow-600  overflow-hidden lg:mx-8 mt-4 p-2">
                         Tube bending is a mechanical process used to deform tubes using a bending process that transforms straight tubes into curved shapes. Although straight tubes are beneficial for certain applications, in many cases, to meet specific requirements, tubes need to be bent, shaped, and stressed.

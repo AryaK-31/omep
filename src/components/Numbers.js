@@ -9,22 +9,22 @@ function Numbers() {
   const limit2 = 100;
   const limit3 = 700;
   const limit4 = 800;
+  const [animationTriggered, setAnimationTriggered] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight;
       const elementPosition = document.getElementById('numbers').offsetTop;
 
-      if (scrollPosition > elementPosition) {
+      if (scrollPosition > elementPosition && !animationTriggered) {
         animateCounts(true);
-      } else {
-        animateCounts(false);
+        setAnimationTriggered(true);
       }
     };
 
     const animateCounts = (isIncrement) => {
       let startTimestamp = null;
-      const duration = 1500;
+      const duration = 2000;
 
       const step = (timestamp) => {
         if (!startTimestamp) {
@@ -62,11 +62,12 @@ function Numbers() {
       requestAnimationFrame(step);
     };
 
-    window.addEventListener('scroll', handleScroll,{ passive: true });
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => {
-      window.removeEventListener('scroll', handleScroll,{ passive: true });
+      window.removeEventListener('scroll', handleScroll, { passive: true });
     };
-  }, []);
+  }, [animationTriggered]);
+
 
   return (
     <div id="numbers" className="bg-[#0a0342] p-10 flex flex-col lg:flex-row md:flex-row justify-center md:gap-[0.5rem] gap-[2.5rem] lg:p-6 md:p-5 lg:gap-[6rem] items-center">
