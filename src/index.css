@@ -55,6 +55,63 @@ code {
   white-space: nowrap; /* Prevent line breaks */
 }
 
+/* Small laptops (12", 13", 14") */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-content {
+    background-size: cover;
+    height: 60vh;
+  }
+
+  .bg-gray-200 {
+    height: 24rem;
+  }
+
+  .font-taglineP {
+    font-size: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .font-para {
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: justify;
+    line-height: 2rem;
+  }
+}
+
+/* Medium laptops (15", 16") */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .about-content {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: auto;
+  }
+
+  .bg-gray-200 {
+    height: auto;
+  }
+
+  .font-taglineP {
+    font-size: 4rem;
+    padding-left: 11rem;
+    padding-right: 10rem;
+  }
+
+  .font-para {
+    font-size: 1.8rem;
+    padding-left: 11rem;
+    padding-right: 10rem;
+    text-align: left;
+    line-height: 2.5rem;
+  }
+}
+
+
+
 @keyframes fade {
   0% {
     opacity: 0;

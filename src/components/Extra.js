@@ -14,64 +14,64 @@ const CardComponent = () => {
         {
             cardTitle: 'Pumps',
             cardDescription: 'Card description goes here 1.Card description goes here 1.Card description goes here 1.',
-            bgColor: '[#0a0342]',
-            textColor: 'yellow-600',
+            bgColor: 'bg-[#0a0342]',
+            textColor: 'text-yellow-600',
             path: <GiPipes size={50} className="mb-4" />
         },
         {
             cardTitle: 'Check Valve',
             cardDescription: 'Card description goes here 1.Card description goes here 1.Card description goes here 1.',
-            bgColor: 'yellow-600',
-            textColor: '[#0a0342]',
+            bgColor: 'bg-yellow-600',
+            textColor: 'text-[#0a0342]',
             path: <GiValve size={50} className="mb-4" />
         },
         {
             cardTitle: 'Pressure Control Valve',
             cardDescription: 'Card description goes here 1.Card description goes here 1.Card description goes here 1.',
-            bgColor: '[#0a0342]',
-            textColor: 'yellow-600',
+            bgColor: 'bg-[#0a0342]',
+            textColor: 'text-yellow-600',
             path: <TbOvalVerticalFilled size={50} className="mb-4" />
         },
         {
             cardTitle: 'Manifolds',
             cardDescription: 'Card description goes here 1.Card description goes here 1.Card description goes here 1.',
-            bgColor: 'yellow-600',
-            textColor: '[#0a0342]',
+            bgColor: 'bg-yellow-600',
+            textColor: 'text-[#0a0342]',
             path: <TiFlowSwitch size={50} className="mb-4" />
         },
         {
             cardTitle: 'Pistons',
             cardDescription: 'Card description goes here 1.Card description goes here 1.Card description goes here 1.',
-            bgColor: '[#0a0342]',
-            textColor: 'yellow-600',
+            bgColor: 'bg-[#0a0342]',
+            textColor: 'text-yellow-600',
             path: <MdOutlinePlumbing size={50} className="mb-4" />
         },
         {
             cardTitle: 'Direction Control Valve',
             cardDescription: 'Card description goes here 1.Card description goes here 1.Card description goes here 1.',
-            bgColor: 'yellow-600',
-            textColor: '[#0a0342]',
+            bgColor: 'bg-yellow-600',
+            textColor: 'text-[#0a0342]',
             path: <GiMultiDirections size={50} className="mb-4" />
         },
         {
             cardTitle: 'Oil Cooler',
             cardDescription: 'Card description goes here 1.Card description goes here 1.Card description goes here 1.',
-            bgColor: '[#0a0342]',
-            textColor: 'yellow-600',
+            bgColor: 'bg-[#0a0342]',
+            textColor: 'text-yellow-600',
             path: <GiCooler size={50} className="mb-4" />
         },
         {
             cardTitle: 'Pressure Switch',
             cardDescription: 'Card description goes here 1.Card description goes here 1.Card description goes here 1.',
-            bgColor: 'yellow-600',
-            textColor: '[#0a0342]',
+            bgColor: 'bg-yellow-600',
+            textColor: 'text-[#0a0342]',
             path: <GiPressureCooker size={50} className="mb-4" />
         },
         {
             cardTitle: 'Flow Control Valve',
             cardDescription: 'Card description goes here 1.Card description goes here 1.Card description goes here 1.',
-            bgColor: '[#0a0342]',
-            textColor: 'yellow-600',
+            bgColor: 'bg-[#0a0342]',
+            textColor: 'text-yellow-600',
             path: <CgOverflow size={50} className="mb-4" />
         },
     ];
@@ -85,7 +85,7 @@ const CardComponent = () => {
                         cardContent.map((card, index) => {
                             return (
                                 <div className="flex justify-center items-center" key={index}>
-                                    <div className={`w-60 lg:h-46 h-full text-center rounded-lg shadow-lg bg-${card.bgColor} text-${card.textColor}`}>
+                                    <div className={`w-60 lg:h-46 h-full text-center rounded-lg shadow-lg ${card.bgColor} ${card.textColor}`}>
                                         <div className="flex flex-col justify-center items-center h-full p-4">
                                             {card.path}
                                             <h2 className="text-xl font-semibold">{card.cardTitle}</h2>

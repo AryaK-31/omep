@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" >
       <div className="heading font-taglineP text-[#0a0342] underline underline-offset-[20px] decoration-yellow-500">Contact</div>
-      <div className="map">
+      <div className="map" data-aos="fade-right"  data-aos-offset="200" data-aos-duration="1100">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.2731697227514!2d73.75905951083348!3d18.651733865081454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9e76c8fa205%3A0x1b210131915734fd!2sPCCOE%20-%20Pimpri%20Chinchwad%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1685858798720!5m2!1sen!2sin"
           width="600"
@@ -16,7 +16,7 @@ const Contact = () => {
         ></iframe>
       </div>
       <div className="details">
-        <div className="left">
+        <div className="left" data-aos="fade-right"  data-aos-offset="200" data-aos-duration="1100">
           <div className="inquiries">
             <h3>Inquiries</h3>
             <p>
@@ -45,7 +45,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="right">
+        <div className="right" data-aos="fade-right"  data-aos-offset="200" data-aos-duration="1100">
           <div className="headoffice">
             <h3>Head Office</h3>
             <p>500 Terry Francine Street</p>
